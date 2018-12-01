@@ -1,0 +1,39 @@
+{
+  "name": "cnoris",
+  "version": "1.0.0",
+  "description": "This is a Tributary Page for Chuck Norris, the invincible mothertucker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SIANSS/cnoris.git"
+  },
+  "author": "Dimosian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SIANSS/cnoris/issues"
+  },
+  "homepage": "https://github.com/SIANSS/cnoris#readme",
+  "dependencies": {
+    "bcryptjs": "latest",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "nodemailer": "*",
+    "passport": "*",
+    "passport-facebook": "*",
+    "passport-google-oauth": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
+}
